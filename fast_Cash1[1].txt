@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASTCASH Loans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>FASTCASH Loans</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#loans">Loans</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#terms">Terms & Conditions</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <p>Call: +254715772798</p>
+                <p>WhatsApp: <a href="https://wa.me/254783010327" target="_blank">+254783010327</a></p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Quick, Reliable Loans with FASTCASH Loans!</h2>
+            <p>Serving Uganda and Beyond. Get your loan in minutes.</p>
+            <a href="#application" class="btn">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- Loan Types Section -->
+    <section id="loans" class="loan-types">
+        <div class="container">
+            <h2>Our Loan Options</h2>
+            <div class="loan-boxes">
+                <div class="loan-box">
+                    <h3>Personal Loans</h3>
+                    <p>For medical bills, school fees, etc.</p>
+                    <a href="#application" class="btn">Learn More</a>
+                </div>
+                <div class="loan-box">
+                    <h3>Business Loans</h3>
+                    <p>Support for your start-ups and business growth.</p>
+                    <a href="#application" class="btn">Learn More</a>
+                </div>
+                <div class="loan-box">
+                    <h3>Emergency Loans</h3>
+                    <p>Quick loans for urgent financial needs.</p>
+                    <a href="#application" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>Step 1</h3>
+                    <p>Choose your loan type.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 2</h3>
+                    <p>Pay the Shares Capital.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 3</h3>
+                    <p>Submit the application form.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 4</h3>
+                    <p>Receive your loan within minutes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms and Conditions Section -->
+    <section id="terms" class="terms">
+        <div class="container">
+            <h2>Terms & Conditions</h2>
+            <p>Detailed information about shares capital, loan terms, and repayment guidelines.</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-us">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 FASTCASH Loans. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://wa.me/254783010327" target="_blank">WhatsApp</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
